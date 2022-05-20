@@ -1,0 +1,11 @@
+/* Variables */
+:root {
+  /* Fuentes */
+  --fuenteEncabezados: "Pompiere", cursive;
+  --fuenteParrafos: "Puppies Play", cursive;
+  /* Colores */
+  --colorTexto: #8cc0de;
+  --colorPrincipal: #f4bfbf;
+  --colorSecundario: #ffd9c0;
+  --colorOpcional: #faf0d7;
+}

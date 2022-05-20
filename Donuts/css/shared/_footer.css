@@ -1,0 +1,7 @@
+/* Footer */
+
+.footer {
+  background-color: var(--colorPrincipal);
+  padding: 3rem 0;
+  margin-top: 4rem;
+}

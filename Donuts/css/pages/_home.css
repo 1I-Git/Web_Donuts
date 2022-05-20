@@ -1,0 +1,36 @@
+/* Contenido Principal */
+.entrada {
+  border-bottom: 3px solid var(--colorSecundario);
+  margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+  }
+}
+
+/* Sidebar Recetas */
+.widget--receta {
+  border-bottom: 1px solid var(--colorPrincipal);
+  margin-bottom: 2rem;
+}
+.widget--receta:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.widget--receta__info {
+  font-family: var(--fuenteEncabezados);
+  font-weight: bold;
+}
+
+.widget--receta__label {
+  font-weight: normal;
+}

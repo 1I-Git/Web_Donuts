@@ -1,0 +1,23 @@
+/* Recetas */
+.receta {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--colorPrincipal);
+  margin-bottom: 2rem;
+}
+
+.receta:last-of-type {
+  padding: 0;
+  border-bottom: 0;
+}
+
+.receta__imagen img {
+  border-radius: 2%;
+}
+
+@media (min-width: 768px) {
+  .receta {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+}

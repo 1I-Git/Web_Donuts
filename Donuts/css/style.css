@@ -1,0 +1,64 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Pompiere', cursive;
+font-family: 'Puppies Play', cursive; */
+
+/* 
+Header: 
+Foto de NajlaCam en Unsplash 
+https://unsplash.com/es/fotos/F71ZHHBYs3w?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+pic1:
+Foto de Serghei Savchiuc en Unsplash
+https://unsplash.com/es/fotos/Ic0E0y6Zo20?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+pic2:
+Foto de Leon Ephraïm en Unsplash
+https://unsplash.com/es/fotos/FZeiyMSWsn8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+pic3:
+Foto de Jeswin Thomas en Unsplash
+https://unsplash.com/es/fotos/xzzeP0UqcQQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+nosotros:
+Foto de Tu Trinh en Unsplash
+https://unsplash.com/es/fotos/peFEjuzDfQA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+receta:
+Foto de Slashio Photography en Unsplash
+https://unsplash.com/es/fotos/ZG9ggI_pjFw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+contacto:
+Foto de NajlaCam en Unsplash
+https://unsplash.com/es/fotos/aFMylf801v0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+*/
+
+/* ___Shared___ */
+/* Variables */
+@import url("shared/_variables.css");
+
+/* Globales */
+@import url("shared/_globales.css");
+
+/* Utilidades */
+@import url("shared/_utilidades.css");
+
+/* Header */
+@import url("shared/_header.css");
+
+/* Footer */
+@import url("shared/_footer.css");
+
+/* ___Pages___ */
+
+/* Home(index) */
+@import url("pages/_home.css");
+
+/* Nosotros */
+@import url("pages/_nosotros.css");
+
+/* Recetas */
+@import url("pages/_recetas.css");
+
+/* Contacto */
+@import url("pages/_contacto.css");

@@ -1,0 +1,63 @@
+/* Contacto */
+
+/* Validar webp */
+.webp .contacto-bg {
+  background-image: url(/../img/contacto.webp);
+}
+
+.no-webp .contacto-bg {
+  background-image: url(/../img/contacto.jpg);
+}
+
+.webp .formulario {
+  background-image: url(/../img/contacto.webp);
+}
+
+.no-webp .formulario {
+  background-image: url(/../img/contacto.jpg);
+}
+
+.contacto-bg {
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.formulario {
+  margin: -3rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.campo__label {
+  flex: 0 0 9rem; /*Añadir valor base */
+  text-align: right;
+  margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  .campo {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .campo__label {
+    flex: 0 0 9rem; /*Añadir valor base */
+    text-align: right;
+    margin-right: 2rem;
+  }
+  
+  .campo__field {
+    flex: 1;
+  }
+  
+  .campo__field--textarea {
+    height: 20rem;
+  }
+}
